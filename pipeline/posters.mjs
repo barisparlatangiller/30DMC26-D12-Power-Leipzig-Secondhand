@@ -75,8 +75,8 @@ await poster("post2_what_kinds", ({ ATT }) => {
   S.map.resize(); S.map.jumpTo({ center: [12.378, 51.318], zoom: 11.55, pitch: 0, bearing: 0 });
   S.map.setPaintProperty("pl", "circle-radius", 7); S.map.setPaintProperty("plh", "circle-radius", 15);
   document.body.insertAdjacentHTML("beforeend", `<div class="v top"><div class="eb">#30DayMapChallenge · Day 12 · Power · Leipzig</div>
-    <h1>What kinds of <em>secondhand</em>?</h1><div class="q">${st.total} places across Leipzig, by type. Used cars are the biggest group, spread along the arterial
-    roads; fashion, general second-hand and antiques gather in ${st.top_ortsteile_places.slice(0, 4).map(o => o[0]).join(", ")}.</div></div>
+    <h1>What kinds of <em>secondhand</em>?</h1><div class="q">${st.total} places across Leipzig, by type. Used cars are the biggest group, mostly toward the edges of the
+    city; fashion, general second-hand and antiques gather in ${st.top_ortsteile_places.slice(0, 4).map(o => o[0]).join(", ")}.</div></div>
     <div class="v bot"><table>${st.cats.map((c, k) => `<tr><td><i class="sw" style="background:${COLS[k]}"></i>${c}</td>
       <td class="r" style="width:330px"><span class="bar" style="width:${260 * st.count[k] / mx}px;background:${COLS[k]}"></span></td><td class="r" style="width:60px"><b>${st.count[k]}</b></td>
       <td class="r" style="width:70px;color:#8f887c">${Math.round(100 * st.count[k] / st.total)}%</td></tr>`).join("")}</table><div class="att">${ATT}</div></div>`);
