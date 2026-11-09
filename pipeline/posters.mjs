@@ -61,7 +61,9 @@ async function poster(name, fn, arg) {
 
 await poster("post1_3d_west", ({ ATT }) => {
   const st = S.st, COLS = ["#e4572e", "#f2a541", "#8e5572", "#2e86ab", "#1b998b", "#c84b9e", "#5c6b73"];
-  S.map.resize(); S.map.jumpTo({ center: [12.334, 51.3268], zoom: 14.75, pitch: 60, bearing: -24 });
+  S.map.resize(); S.map.jumpTo({ center: [12.3388, 51.3292], zoom: 15.55, pitch: 60, bearing: -20 });
+  S.map.setPaintProperty("plh", "circle-radius", 26); S.map.setPaintProperty("plh", "circle-opacity", 0.28); S.map.setPaintProperty("pl", "circle-radius", 6.5);
+  S.map.setLayoutProperty("pln", "text-size", 15);
   document.body.insertAdjacentHTML("beforeend", `<div class="v top"><div class="eb">#30DayMapChallenge · Day 12 · Power · Leipzig</div>
     <h1>The second life of <em>a neighbourhood</em></h1><div class="q">Plagwitz and Leipzig's west in 3D: every coloured building houses a second-hand place.
     Green: the city's trees.</div></div>
@@ -73,8 +75,8 @@ await poster("post2_what_kinds", ({ ATT }) => {
   S.map.resize(); S.map.jumpTo({ center: [12.378, 51.318], zoom: 11.55, pitch: 0, bearing: 0 });
   S.map.setPaintProperty("pl", "circle-radius", 7); S.map.setPaintProperty("plh", "circle-radius", 15);
   document.body.insertAdjacentHTML("beforeend", `<div class="v top"><div class="eb">#30DayMapChallenge · Day 12 · Power · Leipzig</div>
-    <h1>What kinds of <em>secondhand</em>?</h1><div class="q">${st.total} places across Leipzig, by type. Used cars are the biggest group; fashion, general second-hand
-    and antiques follow, and they gather in the west and the centre.</div></div>
+    <h1>What kinds of <em>secondhand</em>?</h1><div class="q">${st.total} places across Leipzig, by type. Used cars are the biggest group, spread along the arterial
+    roads; fashion, general second-hand and antiques gather in ${st.top_ortsteile_places.slice(0, 4).map(o => o[0]).join(", ")}.</div></div>
     <div class="v bot"><table>${st.cats.map((c, k) => `<tr><td><i class="sw" style="background:${COLS[k]}"></i>${c}</td>
       <td class="r" style="width:330px"><span class="bar" style="width:${260 * st.count[k] / mx}px;background:${COLS[k]}"></span></td><td class="r" style="width:60px"><b>${st.count[k]}</b></td>
       <td class="r" style="width:70px;color:#8f887c">${Math.round(100 * st.count[k] / st.total)}%</td></tr>`).join("")}</table><div class="att">${ATT}</div></div>`);
