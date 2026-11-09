@@ -1,6 +1,6 @@
 /* The Power of Secondhand · #30DayMapChallenge 2026 · Day 12 · Power · Leipzig */
 const COL = ["#e4572e", "#f2a541", "#8e5572", "#2e86ab", "#1b998b", "#c84b9e", "#5c6b73"];
-const TREE = "#9cc58c", BLD = "#e9e5dd", RAMP = ["#f1eefb", "#cfc6f1", "#a397e2", "#7563cc", "#47369f", "#2a1d6e"];
+const TREE = "#8dbf7c", BLD = "#ebe7df", RAMP = ["#f1eefb", "#cfc6f1", "#a397e2", "#7563cc", "#47369f", "#2a1d6e"];
 const $ = s => document.querySelector(s);
 const fmt = n => Math.round(n).toLocaleString("en-GB");
 const pct = x => Math.round(100 * x) + "%";
@@ -32,7 +32,7 @@ function cellsExpr() {
 function addLayers() {
   if (map.getLayer("bld")) return true;
   try {
-    const L = map.getStyle().layers, sym = L.find(l => l.type === "symbol")?.id, font = L.find(l => l.layout?.["text-font"])?.layout["text-font"] || ["Montserrat Medium"];
+    const L = map.getStyle().layers, sym = L.find(l => l.type === "symbol")?.id, font = (L.find(l => (l.layout?.["text-font"] || []).join("").includes("Montserrat Medium"))?.layout["text-font"]) || ["Montserrat Medium", "Open Sans Regular"];
     for (const l of L) if (/building/.test(l.id)) map.setLayoutProperty(l.id, "visibility", "none");
     map.addSource("cells", { type: "vector", url: "pmtiles://" + abs("data/cells.pmtiles") });
     map.addLayer({ id: "cells", type: "fill", source: "cells", "source-layer": "c", layout: { visibility: "none" }, paint: { "fill-color": cellsExpr(), "fill-opacity": 0.82 } }, sym);
@@ -40,16 +40,16 @@ function addLayers() {
     map.addLayer({ id: "ot", type: "line", source: "ot", paint: { "line-color": ["case", ["in", "Plagwitz", ["get", "ortsteil"]], "#e4572e", "#a59d8f"],
       "line-width": ["case", ["in", "Plagwitz", ["get", "ortsteil"]], 2.4, 0.6], "line-dasharray": [3, 2], "line-opacity": 0.8 } }, sym);
     map.addSource("trees", { type: "vector", url: "pmtiles://" + abs("data/trees.pmtiles") });
-    map.addLayer({ id: "trees", type: "circle", source: "trees", "source-layer": "t", paint: { "circle-color": TREE, "circle-opacity": 0.75, "circle-pitch-alignment": "map",
-      "circle-radius": ["interpolate", ["exponential", 2], ["zoom"], 11, ["/", ["get", "d"], 95.6], 18, ["/", ["get", "d"], 0.747]] } }, sym);
+    map.addLayer({ id: "trees", type: "circle", source: "trees", "source-layer": "t", paint: { "circle-color": TREE, "circle-opacity": 0.7, "circle-pitch-alignment": "map",
+      "circle-radius": ["interpolate", ["exponential", 2], ["zoom"], 11, ["max", 0.8, ["/", ["get", "d"], 48]], 14, ["max", 1.6, ["/", ["get", "d"], 6]], 18, ["/", ["get", "d"], 0.4]] } }, sym);
     map.addSource("bld", { type: "vector", url: "pmtiles://" + abs("data/buildings.pmtiles") });
     map.addLayer({ id: "bld", type: "fill-extrusion", source: "bld", "source-layer": "b", minzoom: 11,
       paint: { "fill-extrusion-color": buildExpr(), "fill-extrusion-height": ["get", "h"], "fill-extrusion-opacity": 0.95, "fill-extrusion-vertical-gradient": true } });
     map.addSource("pl", { type: "geojson", data: S.pl });
     map.addLayer({ id: "plh", type: "circle", source: "pl", filter: ["in", ["get", "cat"], ["literal", [...S.on]]],
-      paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 7, 15, 16], "circle-color": ["to-color", ["at", ["get", "cat"], ["literal", COL]]], "circle-opacity": 0.18, "circle-blur": 0.6 } });
+      paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 6, 15, 11], "circle-color": ["to-color", ["at", ["get", "cat"], ["literal", COL]]], "circle-opacity": 0.12, "circle-blur": 0.6 } });
     map.addLayer({ id: "pl", type: "circle", source: "pl", filter: ["in", ["get", "cat"], ["literal", [...S.on]]],
-      paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 3.5, 15, 6.5], "circle-color": ["to-color", ["at", ["get", "cat"], ["literal", COL]]],
+      paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 11, 3.5, 15, 4.5], "circle-color": ["to-color", ["at", ["get", "cat"], ["literal", COL]]],
         "circle-stroke-color": "#fff", "circle-stroke-width": 1.6 } });
     map.addLayer({ id: "pln", type: "symbol", source: "pl", minzoom: 14.2, filter: ["in", ["get", "cat"], ["literal", [...S.on]]],
       layout: { "text-field": ["coalesce", ["get", "name"], ""], "text-font": font, "text-size": 11.5, "text-offset": [0, 1.1], "text-anchor": "top", "text-max-width": 9 },
