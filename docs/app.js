@@ -76,9 +76,9 @@ function render() {
     <div class="kpi"><b>${pct(H.covered_any / H.residents)}</b><span>of ${fmt(H.residents)} residents live within a 15-min walk of one</span></div>
     <div class="kpi"><b>${H.mean_reachable.toFixed(1)}</b><span>places a resident reaches on foot, on average</span></div>`;
   const tot = st.count.reduce((a, b) => a + b, 0), mx = Math.max(...st.count);
-  $("#table").innerHTML = `<thead><tr><th>Category</th><th>Places</th><th>Share</th><th>Residents ≤15 min</th></tr></thead><tbody>` +
+  $("#table").innerHTML = `<thead><tr><th>Category</th><th>Places</th><th>Share</th><th title="residents within a 15-minute walk">≤15′ walk</th></tr></thead><tbody>` +
     st.cats.map((c, k) => `<tr class="row ${S.on.has(k) ? "" : "off"}" data-k="${k}"><td><i class="sw" style="background:${COL[k]}"></i>${c}</td><td>${st.count[k]}</td>
-      <td><span class="bar" style="width:${46 * st.count[k] / mx}px;background:${COL[k]}"></span>${pct(st.count[k] / tot)}</td><td>${pct(st.hinterland_cat_share[k])}</td></tr>`).join("") +
+      <td><span class="bar" style="width:${32 * st.count[k] / mx}px;background:${COL[k]}"></span>${pct(st.count[k] / tot)}</td><td>${pct(st.hinterland_cat_share[k])}</td></tr>`).join("") +
     `</tbody><tfoot><tr><td>All</td><td>${tot}</td><td>100%</td><td>${pct(H.covered_any / H.residents)}</td></tr></tfoot>`;
   $("#table").querySelectorAll("tr.row").forEach(tr => tr.onclick = () => { const k = +tr.dataset.k; S.on.has(k) ? S.on.delete(k) : S.on.add(k); if (!S.on.size) S.on.add(k); render(); restyle(); });
   $("#otp").innerHTML = st.top_ortsteile_places.slice(0, 6).map(o => `<li data-o="${o[0]}">${o[0]} <span>${o[1]}</span></li>`).join("");

@@ -17,7 +17,7 @@ h2 .fine { text-transform: none; letter-spacing: 0; font-weight: 400; }
 .seg { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; margin-top: 14px; }
 .seg button { font: inherit; font-size: 12.5px; border: 0; background: #fff; padding: 9px 6px; cursor: pointer; color: var(--ink2); }
 .seg button.on { background: var(--ink); color: #fff; font-weight: 600; }
-table.xl { width: 100%; border-collapse: collapse; font-size: 12.5px; font-variant-numeric: tabular-nums; }
+table.xl { width: 100%; border-collapse: collapse; font-size: 12px; font-variant-numeric: tabular-nums; }
 .xl th { font-size: 10.5px; color: var(--ink3); font-weight: 600; text-align: right; padding: 4px 4px; border-bottom: 1px solid var(--line); background: #faf7f1; }
 .xl th:first-child { text-align: left; }
 .xl td { white-space: nowrap; padding: 6px 4px; border-bottom: 1px solid #f1ece3; text-align: right; }
