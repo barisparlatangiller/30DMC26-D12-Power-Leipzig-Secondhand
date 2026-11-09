@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Power of Secondhand</title>
+<meta name="description" content="#30DayMapChallenge 2026 · Day 12 · Power. Leipzig's second-hand places in 3D: what kinds there are, where they cluster, and how many residents live within a 15-minute walk.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,800&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<link href="style.css?v=1" rel="stylesheet">
+</head>
+<body>
+<div id="map"></div>
+
+<aside class="panel" id="panel">
+  <div class="eb">#30DayMapChallenge · Day 12 · Power · Leipzig</div>
+  <h1>The Power of <em>Secondhand</em></h1>
+  <p class="q">Where do Leipzig's second-hand places cluster, what kinds are they, and how many people live within a 15-minute walk of one?
+    Every coloured building houses one of them.</p>
+
+  <div class="kpis" id="kpis"></div>
+
+  <div class="seg" id="mode"><button data-m="places" class="on">Places in 3D</button><button data-m="hinter">Walkable hinterland</button></div>
+
+  <h2>What kinds <span class="fine" id="selnote">· tap a row to switch it on or off</span></h2>
+  <table class="xl" id="table"></table>
+
+  <div id="hlegend" class="hidden">
+    <h2>Second-hand places within a 15-minute walk</h2>
+    <div class="ramp" id="ramp"></div><div class="ends"><span>0</span><span>1</span><span>3</span><span>6</span><span>10+</span></div>
+  </div>
+
+  <h2>Neighbourhoods</h2>
+  <div class="cols"><div><div class="fine">most places</div><ol id="otp"></ol></div><div><div class="fine">most walkable second-hand</div><ol id="otw"></ol></div></div>
+  <div class="callout" id="plag"></div>
+
+  <details><summary>Method and limits</summary>
+    <p><b>Places.</b> OpenStreetMap: shop=second_hand, second_hand=yes/only, shop=charity (export of 95 records). Removed: <span id="removed"></span>.
+      Same-name records within 50 m are counted once. Categories come from the OSM shop tag and the name.</p>
+    <p><b>Buildings.</b> 3D building models LoD2 Saxony (GeoSN): a place colours the building it sits in (or the nearest within 25 m).
+      Trees: Baumkataster Stadt Leipzig, all in one colour, sized by crown diameter.</p>
+    <p><b>Hinterland.</b> Walking distance along OpenStreetMap paths and streets; 15 minutes = 1,200 m at 4.8 km/h. Residents: Zensus 2022,
+      100 m grid (Destatis).</p>
+    <p><b>Limits.</b> OSM may miss shops or hold closed ones; flea markets that are not permanent shops are not included. The age of customers
+      or whether a shop is independent is not measured. A walk is not a visit.</p>
+    <p class="fine">Data © OpenStreetMap contributors (ODbL) · LoD2 © GeoSN (dl-de/by-2-0) · Baumkataster, Ortsteile © Stadt Leipzig ·
+      Zensus 2022 © Destatis · basemap © CARTO. Barış Parlatangiller, built with Claude ·
+      <a href="https://github.com/barisparlatangiller/30DMC26-D12-Power-Leipzig-Secondhand" target="_blank" rel="noopener">code</a> ·
+      <a href="data/leipzig_secondhand.gpkg">GeoPackage</a> · <a href="https://barisparlatangiller.github.io/" target="_blank" rel="noopener">all maps</a></p>
+  </details>
+</aside>
+
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pmtiles@3.2.1/dist/pmtiles.js"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>

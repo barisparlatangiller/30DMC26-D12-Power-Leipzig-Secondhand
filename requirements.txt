@@ -1,0 +1,10 @@
+pandas>=2.2
+numpy
+geopandas>=1.0
+shapely>=2.0
+pyogrio
+pyarrow
+lxml
+requests
+scipy
+osmium>=4.0

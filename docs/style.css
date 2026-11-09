@@ -1,0 +1,43 @@
+:root { --ink: #1f1d1a; --ink2: #5d5850; --ink3: #8f887c; --line: #e7e2d8; --bg: #f7f4ee; --acc: #e4572e; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; font-family: Inter, system-ui, sans-serif; color: var(--ink); background: var(--bg); -webkit-font-smoothing: antialiased; }
+#map { position: absolute; inset: 0 420px 0 0; }
+.panel { position: absolute; top: 0; right: 0; bottom: 0; width: 420px; overflow-y: auto; background: #fffdf9; border-left: 1px solid var(--line); padding: 22px 22px 28px; }
+.eb { font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; color: var(--ink3); font-weight: 600; }
+h1 { font-family: Fraunces, Georgia, serif; font-size: 36px; line-height: 1; letter-spacing: -.02em; margin: 8px 0 8px; font-weight: 800; }
+h1 em { font-style: italic; color: var(--acc); }
+.q { margin: 0; color: var(--ink2); font-size: 13.5px; line-height: 1.5; }
+h2 { font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--ink2); margin: 20px 0 8px; font-weight: 700; }
+h2 .fine { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.fine { font-size: 11.5px; color: var(--ink3); line-height: 1.45; } .fine a { color: var(--ink2); }
+.kpis { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 16px; }
+.kpi { background: var(--bg); border-radius: 12px; padding: 10px 12px; }
+.kpi b { display: block; font-family: Fraunces, serif; font-size: 25px; font-weight: 800; letter-spacing: -.01em; }
+.kpi span { font-size: 11px; color: var(--ink2); line-height: 1.3; display: block; }
+.seg { display: grid; grid-template-columns: 1fr 1fr; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; margin-top: 14px; }
+.seg button { font: inherit; font-size: 12.5px; border: 0; background: #fff; padding: 9px 6px; cursor: pointer; color: var(--ink2); }
+.seg button.on { background: var(--ink); color: #fff; font-weight: 600; }
+table.xl { width: 100%; border-collapse: collapse; font-size: 12.5px; font-variant-numeric: tabular-nums; }
+.xl th { font-size: 10.5px; color: var(--ink3); font-weight: 600; text-align: right; padding: 4px 4px; border-bottom: 1px solid var(--line); background: #faf7f1; }
+.xl th:first-child { text-align: left; }
+.xl td { padding: 6px 4px; border-bottom: 1px solid #f1ece3; text-align: right; }
+.xl td:first-child { text-align: left; display: flex; align-items: center; gap: 8px; }
+.xl tr.row { cursor: pointer; } .xl tr.row:hover td { background: #faf7f1; } .xl tr.off td { opacity: .35; }
+.xl .sw { width: 12px; height: 12px; border-radius: 3px; flex: none; }
+.xl .bar { display: inline-block; height: 8px; border-radius: 4px; vertical-align: middle; margin-right: 6px; }
+.xl tfoot td { font-weight: 700; border-top: 2px solid var(--line); border-bottom: 0; }
+.ramp { height: 12px; border-radius: 6px; } .ends { display: flex; justify-content: space-between; font-size: 10.5px; color: var(--ink3); margin-top: 3px; }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+ol { margin: 4px 0 0; padding-left: 18px; font-size: 12.5px; line-height: 1.6; } ol li span { color: var(--ink3); }
+ol li { cursor: pointer; } ol li:hover { color: var(--acc); }
+.callout { margin-top: 14px; padding: 12px 14px; border-radius: 12px; background: #fff3ec; border: 1px solid #f7d6c6; font-size: 12.5px; line-height: 1.5; color: #5b3a2e; }
+.callout b { color: #2b1a13; }
+details { margin-top: 18px; font-size: 12.5px; color: var(--ink2); line-height: 1.5; border-top: 1px solid var(--line); padding-top: 10px; }
+summary { cursor: pointer; color: var(--ink); font-weight: 600; } details b { color: var(--ink); }
+.hidden { display: none !important; }
+.maplibregl-popup-content { font-family: Inter; font-size: 12.5px; line-height: 1.45; border-radius: 10px; padding: 12px 14px; box-shadow: 0 10px 30px -12px rgba(0,0,0,.35); }
+.maplibregl-popup-content h3 { margin: 0 0 2px; font-family: Fraunces, serif; font-size: 17px; }
+.maplibregl-popup-content .tag { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; color: var(--ink2); margin-bottom: 6px; }
+.maplibregl-popup-content .tag i { width: 9px; height: 9px; border-radius: 2px; display: inline-block; }
+.maplibregl-popup-content a { color: var(--acc); }
+@media (max-width: 860px) { #map { inset: 0 0 48% 0; } .panel { top: 52%; width: 100%; border-left: 0; border-top: 1px solid var(--line); padding: 14px 16px; } h1 { font-size: 26px; } .q { display: none; } }

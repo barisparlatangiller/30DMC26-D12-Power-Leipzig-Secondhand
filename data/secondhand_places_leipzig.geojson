@@ -1,0 +1,2412 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-11-09T08:17:47Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/48858528",
+      "properties": {
+        "@id": "way/48858528",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "22",
+        "addr:postcode": "04347",
+        "addr:street": "Stöhrerstraße",
+        "building": "yes",
+        "name": "Autohaus Schröder",
+        "operator": "Autohaus Schröder e.K.",
+        "second_hand": "only",
+        "shop": "car",
+        "website": "https://auto-schroeder.de/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4357121,
+          51.3652071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/51357840",
+      "properties": {
+        "@id": "way/51357840",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "39a",
+        "addr:postcode": "04179",
+        "addr:street": "Franz-Flemming-Straße",
+        "building": "yes",
+        "email": "holzwurmbrigade@web.de",
+        "level": "0",
+        "name": "Antik-und Trödelhalle Leutzsch",
+        "opening_hours": "Mo-Th 10:00-19:00",
+        "phone": "+49 341 2333265;+49 170 2356126",
+        "shop": "antiques",
+        "website": "https://www.antikundtroedelhalle-leutzsch.de/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3044722,
+          51.3483961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/52462136",
+      "properties": {
+        "@id": "way/52462136",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "3",
+        "addr:postcode": "04158",
+        "addr:street": "Zum Apelstein",
+        "brand": "Škoda",
+        "brand:wikidata": "Q29637",
+        "brand:wikipedia": "en:Škoda Auto",
+        "building": "yes",
+        "name": "Auto-Center Weber",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+        "phone": "+49 341 461090",
+        "second_hand": "yes",
+        "shop": "car",
+        "website": "https://auto-center-weber.de/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3425149,
+          51.3935606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/93063017",
+      "properties": {
+        "@id": "way/93063017",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "27",
+        "addr:postcode": "04155",
+        "addr:street": "Möckernsche Straße",
+        "brand": "Peugeot",
+        "building": "yes",
+        "name": "Autohaus Reinhard Richter",
+        "opening_hours": "Mo-Fr 06:00-19:00; Sa 08:00-13:00",
+        "operator": "Autohaus Reinhard Richter GmbH",
+        "phone": "+49 341 566660",
+        "second_hand": "yes",
+        "shop": "car",
+        "source": "Bing",
+        "website": "https://www.ah-reinhard-richter.de",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3577933,
+          51.3608327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/93601071",
+      "properties": {
+        "@id": "way/93601071",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "140A",
+        "addr:postcode": "04315",
+        "addr:street": "Wurzner Straße",
+        "brand": "Renault",
+        "brand:wikidata": "Q6686",
+        "building": "retail",
+        "building:levels": "1",
+        "email": "info@autopark-ost-fichtner.de",
+        "fax": "+49 341 24586818",
+        "name": "Autopark Ost Fichtner",
+        "opening_hours": "\"Service + Teileverkauf: 7:00 - 19:00; Fahrzeugverkauf 9:00 - 18:00\"",
+        "operator": "Autopark Ost Fichtner GmbH",
+        "phone": "+49 341 2458680",
+        "roof:shape": "flat",
+        "second_hand": "yes",
+        "service:vehicle:car_repair": "yes",
+        "service:vehicle:diagnostics": "yes",
+        "service:vehicle:inspection": "yes",
+        "service:vehicle:new_car_sales": "yes",
+        "service:vehicle:oil_change": "yes",
+        "service:vehicle:repairs": "yes",
+        "service:vehicle:used_car_sales": "yes",
+        "shop": "car",
+        "stroller": "yes",
+        "website": "https://www.autopark-ost-fichtner.de/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4205051,
+          51.3433624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/123342615",
+      "properties": {
+        "@id": "way/123342615",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "38",
+        "addr:postcode": "04317",
+        "addr:street": "Stötteritzer Straße",
+        "air_conditioning": "yes",
+        "brand": "Norma",
+        "brand:wikidata": "Q450180",
+        "building": "retail",
+        "building:levels": "2",
+        "changing_table": "no",
+        "check_date": "2026-10-17",
+        "check_date:opening_hours": "2026-10-17",
+        "currency:EUR": "yes",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Norma",
+        "opening_hours": "Mo-Sa 07:00-20:00",
+        "operator": "NORMA Lebensmittelfilialbetrieb Stiftung & Co. KG",
+        "roof:levels": "1",
+        "roof:shape": "flat",
+        "second_hand": "no",
+        "shop": "supermarket",
+        "smoking": "outside",
+        "website": "https://www.norma-online.de/de/angebote/?mode=6",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4089628,
+          51.3250484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/127309895",
+      "properties": {
+        "@id": "way/127309895",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "150",
+        "addr:postcode": "04158",
+        "addr:street": "Delitzscher Landstraße",
+        "brand": "Ford;Suzuki;Eura Mobil;Forster;Karmann Mobil",
+        "building": "yes",
+        "email": "edv-leipzig@dinnebiergruppe.de",
+        "fax": "+49 341 5241100",
+        "name": "Dinnebier Automobile GmbH",
+        "note": "Übernahme von Gerstmann",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-13:00",
+        "phone": "+49 341 52410",
+        "second_hand": "yes",
+        "shop": "car",
+        "website": "https://www.dinnebier-leipzig.de/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3678879,
+          51.4051298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/147434359",
+      "properties": {
+        "@id": "way/147434359",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "153",
+        "addr:postcode": "04179",
+        "addr:street": "Lützner Straße",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2026-01-10",
+        "name": "Gebrauchtwarenzentrum West",
+        "opening_hours": "Mo-Fr 09:30-18:00; Sa 09:30-13:00",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "second_hand": "only",
+        "shop": "furniture",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3149392,
+          51.33001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/160682236",
+      "properties": {
+        "@id": "way/160682236",
+        "building": "warehouse",
+        "name": "Pooya Car Express",
+        "second_hand": "yes",
+        "shop": "car",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.398589,
+          51.3684867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/274483102",
+      "properties": {
+        "@id": "way/274483102",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "148",
+        "addr:postcode": "04249",
+        "addr:street": "Seumestraße",
+        "building": "yes",
+        "second_hand": "only",
+        "shop": "clothes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3116062,
+          51.2736868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/280430703",
+      "properties": {
+        "@id": "way/280430703",
+        "addr:city": "Leipzig",
+        "addr:postcode": "04315",
+        "addr:street": "Wurzner Straße",
+        "brand": "Dacia",
+        "brand:wikidata": "Q27460",
+        "email": "info@autopark-ost-fichtner.de",
+        "fax": "+49 341 24586818",
+        "landuse": "retail",
+        "name": "Autopark Ost Fichtner GmbH",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-13:00",
+        "operator": "Autopark Ost Fichtner GmbH",
+        "phone": "+49 341 2458680",
+        "second_hand": "yes",
+        "service": "dealer;repair",
+        "service:vehicle:car_repair": "yes",
+        "service:vehicle:diagnostics": "yes",
+        "service:vehicle:inspection": "yes",
+        "service:vehicle:new_car_sales": "yes",
+        "service:vehicle:oil_change": "yes",
+        "service:vehicle:repairs": "yes",
+        "service:vehicle:used_car_sales": "yes",
+        "shop": "car",
+        "stroller": "yes",
+        "website": "https://www.autopark-ost-fichtner.de/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4210207,
+          51.3433124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/334182801",
+      "properties": {
+        "@id": "way/334182801",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "3",
+        "addr:postcode": "04178",
+        "addr:street": "Kastanienweg",
+        "building": "yes",
+        "name": "Autohaus Erhardt - Gebrauchtwagenzentrum Leipzig",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "second_hand": "only",
+        "shop": "car",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.269541,
+          51.3450972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/371752535",
+      "properties": {
+        "@id": "way/371752535",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "7",
+        "addr:postcode": "04288",
+        "addr:street": "Hauptstraße",
+        "addr:suburb": "Holzhausen",
+        "contact:email": "pags-gmbh@gmx.de",
+        "contact:fax": "+49 34297 142749",
+        "contact:mobile": "+49 177 2740763",
+        "contact:phone": "+49 34297 142748",
+        "contact:website": "https://home.mobile.de/PAGS#ses",
+        "landuse": "retail",
+        "name": "PAGS GmbH",
+        "opening_hours": "Mo-Fr 10:00-18:00, 10:00-15:00",
+        "operator": "Serhiy Hudosnyk",
+        "second_hand": "yes",
+        "shop": "car",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4640925,
+          51.3066968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/488866240",
+      "properties": {
+        "@id": "way/488866240",
+        "area": "yes",
+        "check_date": "2024-10-27",
+        "fax": "+493412412112",
+        "name": "Auto Voigt",
+        "opening_hours": "Mo-Fr 15:00-19:00, Sa 10:00-15:00",
+        "phone": "+493412412127",
+        "second_hand": "yes",
+        "shop": "car",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4322036,
+          51.3542624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/612884201",
+      "properties": {
+        "@id": "node/612884201",
+        "name": "peaces",
+        "opening_hours": "We-Sa 13:00-19:00",
+        "shop": "second_hand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3576444,
+          51.3354475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/870948560",
+      "properties": {
+        "@id": "node/870948560",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "204",
+        "addr:postcode": "04249",
+        "addr:street": "Dieskaustraße",
+        "name": "Sozialkaufhaus Help2007 e.V.",
+        "note": "oldname:Schlecker",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "phone": "+49 341 94692527",
+        "shop": "furniture"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3278865,
+          51.3013037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1132298803",
+      "properties": {
+        "@id": "node/1132298803",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "149b",
+        "addr:postcode": "04155",
+        "addr:street": "Georg-Schumann-Straße",
+        "check_date:opening_hours": "2024-08-10",
+        "name": "A&V",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+        "shop": "antiques",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3563216,
+          51.3644311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1207383744",
+      "properties": {
+        "@id": "way/1207383744",
+        "email": "info@bestofcars.de",
+        "landuse": "retail",
+        "operator": "Best of Cars GmbH",
+        "operator:type": "business",
+        "phone": "+49 341 69761960",
+        "second_hand": "yes",
+        "shop": "car",
+        "stroller": "yes",
+        "website": "https://bestofcars.de/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4097061,
+          51.3386012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1297139228",
+      "properties": {
+        "@id": "way/1297139228",
+        "building": "yes",
+        "second_hand": "only",
+        "shop": "car",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3627747,
+          51.363332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1297139229",
+      "properties": {
+        "@id": "way/1297139229",
+        "building": "yes",
+        "second_hand": "only",
+        "shop": "car",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3630805,
+          51.3633104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1524713137",
+      "properties": {
+        "@id": "way/1524713137",
+        "contact:facebook": "https://www.facebook.com/Motor.Leipzig49/",
+        "email": "motor.leipzig49@gmail.com",
+        "landuse": "retail",
+        "name": "Motor-Leipzig 49",
+        "second_hand": "only",
+        "shop": "car",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4170042,
+          51.3570891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/1563109822",
+      "properties": {
+        "@id": "way/1563109822",
+        "building": "yes",
+        "name": "ZS Autowelt",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
+        "operator": "Zaid Al Sadoon & Sabri Ben Hadia",
+        "second_hand": "yes",
+        "shop": "car",
+        "website": "https://zs-autowelt.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2992009,
+          51.3375423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1663291828",
+      "properties": {
+        "@id": "node/1663291828",
+        "addr:housenumber": "96",
+        "addr:street": "Karl-Liebknecht-Straße",
+        "check_date": "2026-05-11",
+        "check_date:opening_hours": "2026-05-11",
+        "level": "0",
+        "name": "Matrix Computerstore",
+        "opening_hours": "We 08:00-13:00; Fr 08:00-16:00; Tu,Th 08:00-18:00; Mo 08:00-17:00",
+        "operator": "Thomas R.",
+        "phone": "+49 341 3068359",
+        "second_hand": "computer",
+        "shop": "computer",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3731395,
+          51.3181537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1687580126",
+      "properties": {
+        "@id": "node/1687580126",
+        "check_date:opening_hours": "2025-08-18",
+        "craft": "shoemaker",
+        "name": "Aerial Sportstudio",
+        "opening_hours:signed": "no",
+        "shop": "second_hand",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.377111,
+          51.3293085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1715150195",
+      "properties": {
+        "@id": "node/1715150195",
+        "brand": "Humana",
+        "brand:wikidata": "Q1636581",
+        "brand:wikipedia": "de:Humana People to People",
+        "check_date:opening_hours": "2026-03-07",
+        "level": "0",
+        "name": "Humana",
+        "name:ja": "ヒューマナ",
+        "opening_hours": "Mo-Sa 09:00-20:00; PH off",
+        "phone": "+49 341 59479994",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "http://www.humana-second-hand.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4048734,
+          51.3377405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2007211997",
+      "properties": {
+        "@id": "node/2007211997",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "166",
+        "addr:postcode": "04159",
+        "addr:street": "Georg-Schumann-Straße",
+        "check_date:opening_hours": "2025-01-15",
+        "email": "susis.schuhhaus@t-online.de",
+        "image": "https://webservice.anwr.rim.de/getfile.aspx?shoID=461&newWidth=1600&newHeight=1200&fillHeight=false&dbfield=out1",
+        "level": "0",
+        "name": "Susi's Schuhhaus",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-13:00",
+        "operator": "Susanne Walther",
+        "phone": "+49 341 9013463",
+        "ref:vatin": "DE815502948",
+        "second_hand": "no",
+        "shop": "shoes",
+        "website": "https://www.susis-schuhhaus.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3484186,
+          51.3665781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2061578726",
+      "properties": {
+        "@id": "node/2061578726",
+        "name": "Gebrauchtwagencenter",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-13:00",
+        "shop": "car"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3853603,
+          51.3791438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2167449620",
+      "properties": {
+        "@id": "node/2167449620",
+        "check_date:opening_hours": "2025-11-05",
+        "name": "BärenStark",
+        "opening_hours": "Mo-Fr 09:30-18:00; Sa 10:00-12:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 341 6886660",
+        "shop": "second_hand",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3783279,
+          51.3200955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2392730216",
+      "properties": {
+        "@id": "node/2392730216",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "161-163",
+        "addr:postcode": "04279",
+        "addr:street": "Bornaische Straße",
+        "name": "Autohandel Leipzig Süd",
+        "second_hand": "only",
+        "service": "dealer",
+        "shop": "car"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3901573,
+          51.2914223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2571782766",
+      "properties": {
+        "@id": "node/2571782766",
+        "check_date": "2025-05-22",
+        "name": "Antiquitäten Beck",
+        "opening_hours": "\"Mo-Fr nach Vereinbarung\"",
+        "second_hand": "jewelery",
+        "shop": "jewelry",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3732531,
+          51.3229911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2733272352",
+      "properties": {
+        "@id": "node/2733272352",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:floor": "0",
+        "addr:housenumber": "18",
+        "addr:postcode": "04277",
+        "addr:street": "Wolfgang-Heinze-Straße",
+        "addr:suburb": "Connewitz",
+        "check_date": "2026-04-23",
+        "check_date:opening_hours": "2026-04-23",
+        "contact:facebook": "gothicsecondhand",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Gothic Second Hand Store",
+        "opening_hours": "Mo-Fr 13:00-18:00; Sa 12:00-16:00; PH off",
+        "opening_hours:signed": "no",
+        "operator": "Antje König",
+        "payment:cash": "yes",
+        "payment:ec_cards": "yes",
+        "phone": "+49 1520 1546798",
+        "second_hand": "only",
+        "shop": "clothes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3730279,
+          51.3084869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2773553511",
+      "properties": {
+        "@id": "node/2773553511",
+        "amenity": "cafe",
+        "bar": "yes",
+        "check_date": "2025-07-13",
+        "check_date:opening_hours": "2023-03-24",
+        "level": "0",
+        "name": "KIEV",
+        "outdoor_seating": "no",
+        "second_hand": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4117833,
+          51.3451258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2773962141",
+      "properties": {
+        "@id": "node/2773962141",
+        "addr:housenumber": "68",
+        "addr:street": "Erich-Köhn-Straße",
+        "check_date": "2026-06-20",
+        "check_date:opening_hours": "2026-06-20",
+        "level": "0",
+        "name": "Lottas Kaufladen",
+        "opening_hours": "Tu,We 14:00-17:00",
+        "opening_hours:signed": "no",
+        "phone": "+49 1573 1374128",
+        "shop": "antiques",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3301607,
+          51.340004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2906837324",
+      "properties": {
+        "@id": "node/2906837324",
+        "brand": "Ernsting's family",
+        "brand:wikidata": "Q1361016",
+        "brand:wikipedia": "de:Ernsting’s family",
+        "name": "Ernsting's family",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+        "organic": "no",
+        "second_hand": "no",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.322828,
+          51.3030832
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2911909676",
+      "properties": {
+        "@id": "node/2911909676",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "39",
+        "addr:postcode": "04249",
+        "addr:street": "Anton-Zickmantel-Straße",
+        "addr:suburb": "Großzschocher",
+        "brand": "Mayer's Markenschuhe",
+        "brand:wikidata": "Q115310242",
+        "contact:email": "info@mayers-markenschuhe.de",
+        "contact:facebook": "https://www.facebook.com/mayersmarkenschuhe/",
+        "contact:instagram": "https://www.instagram.com/mayers_markenschuhe/",
+        "contact:phone": "+49 341 9468448",
+        "contact:website": "https://www.mayers-markenschuhe.de/",
+        "delivery": "no",
+        "name": "Mayer's Markenschuhe",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; Su,PH off",
+        "operator": "Mayer’s Markenschuhe GmbH",
+        "organic": "no",
+        "second_hand": "no",
+        "shop": "shoes",
+        "takeaway": "yes",
+        "toilets": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3225859,
+          51.3031236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3704759626",
+      "properties": {
+        "@id": "node/3704759626",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:floor": "0",
+        "addr:housenumber": "1",
+        "addr:postcode": "04109",
+        "addr:street": "Sporergäßchen",
+        "check_date": "2026-06-10",
+        "clothes": "second_hand;vintage",
+        "contact:facebook": "https://www.facebook.com/lisbethserben/",
+        "contact:instagram": "https://instagram.com/lisbeths.erben",
+        "contact:tiktok": "https://www.tiktok.com/@lisbethserben",
+        "email": "hello@lisbethserben.de",
+        "level": "0",
+        "mobile": "+49 151 53942399",
+        "name": "Lisbeths Erben",
+        "opening_hours": "Mo-Sa 11:00-19:00",
+        "operator": "Neuhaus GbR mit Ruth Christiane Neuhaus und Silas Levi Neuhaus",
+        "ref:vatin": "DE366436599",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.lisbeths-erben.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3737165,
+          51.3383723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3964865962",
+      "properties": {
+        "@id": "node/3964865962",
+        "addr:floor": "0",
+        "addr:housenumber": "44",
+        "addr:street": "Zschochersche Straße",
+        "brand": "Humana",
+        "brand:wikidata": "Q1636581",
+        "brand:wikipedia": "de:Humana People to People",
+        "check_date": "2025-11-17",
+        "check_date:opening_hours": "2025-11-17",
+        "level": "0",
+        "name": "Humana",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-17:00; PH off",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://humana-second-hand.de",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3370822,
+          51.3299142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4068334102",
+      "properties": {
+        "@id": "node/4068334102",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "167",
+        "addr:postcode": "04279",
+        "addr:street": "Bornaische Straße",
+        "name": "Auto Export Service",
+        "operator": "Andre Weikum",
+        "phone": "+49 163 5763757",
+        "second_hand": "only",
+        "service": "dealer",
+        "shop": "car"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3902216,
+          51.291165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4743830648",
+      "properties": {
+        "@id": "node/4743830648",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "04315",
+        "addr:street": "Lilienstraße",
+        "description": "Dubplate & Technic Service",
+        "level": "0",
+        "name": "Second Hand Records",
+        "opening_hours:signed": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "second_hand": "yes",
+        "shop": "music",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4047808,
+          51.3399489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4939191696",
+      "properties": {
+        "@id": "node/4939191696",
+        "email": "zweirad.koenig@t-online.de",
+        "fax": "+49 341 420 68 53",
+        "name": "Zweirad König",
+        "operator": "S. König",
+        "phone": "+49 341 420 67 33",
+        "second_hand": "yes",
+        "shop": "motorcycle",
+        "website": "https://www.zweiradkoenig.de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3101286,
+          51.3271616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5066874823",
+      "properties": {
+        "@id": "node/5066874823",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "68",
+        "addr:postcode": "04177",
+        "addr:street": "Lützner Straße",
+        "check_date": "2025-09-30",
+        "check_date:opening_hours": "2025-09-30",
+        "level": "0",
+        "name": "ReSales Secondhand",
+        "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-13:00",
+        "second_hand": "yes",
+        "shop": "clothes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.330717,
+          51.335928
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5269339589",
+      "properties": {
+        "@id": "node/5269339589",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "90",
+        "addr:postcode": "04275",
+        "addr:street": "Arthur-Hoffmann-Straße",
+        "check_date": "2026-10-06",
+        "check_date:opening_hours": "2026-10-06",
+        "name": "Resales Secondhand",
+        "opening_hours": "Mo-Fr 09:00-18:30; Sa 10:00-15:00",
+        "payment:contactless": "yes",
+        "payment:ec": "yes",
+        "payment:ec_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "second_hand": "yes",
+        "shop": "clothes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3782335,
+          51.3202861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5332296327",
+      "properties": {
+        "@id": "node/5332296327",
+        "name": "Auto Fürst",
+        "second_hand": "yes",
+        "shop": "car"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4933456,
+          51.3465615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5592049841",
+      "properties": {
+        "@id": "node/5592049841",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "11",
+        "addr:postcode": "04229",
+        "addr:street": "Dieskaustraße",
+        "addr:suburb": "Kleinzschocher",
+        "check_date": "2026-02-04",
+        "check_date:opening_hours": "2026-02-04",
+        "contact:phone": "+49 341 4201731",
+        "level": "0",
+        "name": "Briefmarken und Sammlerbedarf",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-12:30; Su,PH off",
+        "operator": "Dietmar Lange",
+        "shop": "antiques",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3293687,
+          51.3195145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5610767576",
+      "properties": {
+        "@id": "node/5610767576",
+        "check_date:opening_hours": "2025-12-03",
+        "email": "torsten.geissler@automobile-geissler.com",
+        "fax": "+49 341 22299220",
+        "name": "Automobile Geissler",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-13:00",
+        "operator": "Torsten Geißler",
+        "phone": "+49 341 22299222",
+        "second_hand": "yes",
+        "shop": "car",
+        "website": "https://automobile-geissler.com/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4389823,
+          51.3681141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5616724688",
+      "properties": {
+        "@id": "node/5616724688",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "48",
+        "addr:postcode": "04105",
+        "addr:street": "Waldstraße",
+        "name": "Antik & Trödel",
+        "opening_hours": "\"Termin nach Vereinbarung Tel: 0157 73976637\"",
+        "shop": "antiques",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.35747,
+          51.3455424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5730429573",
+      "properties": {
+        "@id": "node/5730429573",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "15",
+        "addr:postcode": "04319",
+        "addr:street": "Ernst-Guhr-Straße",
+        "brand": "alle Marken",
+        "check_date": "2024-07-30",
+        "email": "info@blitz-leipzig.de",
+        "name": "Blitz Autoservice",
+        "opening_hours": "Mo-Fr 09:00-18:00",
+        "operator": "Robert Forstmeier",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+49 341 99 75 40",
+        "second_hand": "yes",
+        "shop": "car",
+        "website": "https://blitz-leipzig.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4686106,
+          51.3376893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5784313065",
+      "properties": {
+        "@id": "node/5784313065",
+        "check_date:opening_hours": "2023-04-22",
+        "level": "0",
+        "name": "XXLMöbel.de",
+        "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-13:00",
+        "second_hand": "only",
+        "shop": "furniture",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4079265,
+          51.3393719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5801207226",
+      "properties": {
+        "@id": "node/5801207226",
+        "clothes": "costumes",
+        "contact:website": "https://www.deiters.de/l/leipzig",
+        "name": "Deiters",
+        "old_name": "Who's Perfect",
+        "opening_hours": "Mo-Sa 10:00-19:00",
+        "second_hand": "no",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3827122,
+          51.3395939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5882359305",
+      "properties": {
+        "@id": "node/5882359305",
+        "check_date:opening_hours": "2026-05-13",
+        "clothes": "women",
+        "contact:website": "https://www.amyskott-fashion.com",
+        "name": "Amy. Skott",
+        "opening_hours": "We-Fr 13:00-18:00; Sa 11:00-15:00",
+        "organic": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "second_hand": "no",
+        "shop": "clothes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3761679,
+          51.3387976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/5899158064",
+      "properties": {
+        "@id": "node/5899158064",
+        "check_date:opening_hours": "2026-04-07",
+        "clothes": "men;women",
+        "contact:website": "https://bazarroyal.de",
+        "name": "Bazar Royal",
+        "opening_hours": "Mo-Sa 10:00-19:00",
+        "organic": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "second_hand": "no",
+        "shop": "clothes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3762186,
+          51.3389909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6100377088",
+      "properties": {
+        "@id": "node/6100377088",
+        "addr:housenumber": "26",
+        "addr:street": "Kuhturmstraße",
+        "check_date": "2026-10-20",
+        "check_date:opening_hours": "2026-10-20",
+        "level": "0",
+        "name": "Vintage Love",
+        "name:signed": "no",
+        "opening_hours": "Mo-Sa 11:00-19:00",
+        "shop": "clothes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3394958,
+          51.3371756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/6310515351",
+      "properties": {
+        "@id": "node/6310515351",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "12-14",
+        "addr:postcode": "04109",
+        "addr:street": "Hainstraße",
+        "name": "ReSales",
+        "opening_hours": "Mo-Sa 10:00-19:00",
+        "shop": "second_hand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3735857,
+          51.3422408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7533636902",
+      "properties": {
+        "@id": "node/7533636902",
+        "addr:housenumber": "71",
+        "addr:street": "Weißenfelser Straße",
+        "description": "Exchange clothes, books, etc. Free for people on social welfare",
+        "name": "Tauschladen",
+        "opening_hours": "Mo-Fr 09:00-11:30,12:30-16:00",
+        "shop": "charity"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.325248,
+          51.3279291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7578134714",
+      "properties": {
+        "@id": "node/7578134714",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "74",
+        "addr:postcode": "04315",
+        "addr:street": "Mariannenstraße",
+        "check_date:opening_hours": "2026-07-12",
+        "contact:instagram": "https://www.instagram.com/sleeveplusplus/",
+        "email": "contact@sleeveplusplus.de",
+        "internet_access": "wlan",
+        "name": "Sleeve++",
+        "opening_hours": "We-Sa 13:00-20:00",
+        "operator": "Sleeve Projektmanagenemt GbR",
+        "ref:vatin": "DE320450226",
+        "second_hand": "yes",
+        "shop": "music",
+        "website": "http://www.sleeveplusplus.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4065704,
+          51.3467297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/7723331841",
+      "properties": {
+        "@id": "node/7723331841",
+        "check_date": "2023-04-06",
+        "clothes": "fashion",
+        "contact:website": "https://www.luxaa.de",
+        "level": "0",
+        "name": "Luxaa",
+        "opening_hours": "Mo-Fr 11:00-18:00; Sa 10:00-18:00",
+        "second_hand": "no",
+        "shop": "clothes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3771997,
+          51.3406337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/8242533676",
+      "properties": {
+        "@id": "node/8242533676",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "54",
+        "addr:postcode": "04209",
+        "addr:street": "Alte Salzstraße",
+        "description": "Sozialwaren, Bücher, Treffpunkt",
+        "name": "Caritas Laden",
+        "opening_hours": "Mo-Fr 11:00-15:00",
+        "operator": "Caritasverband Leipzig e. V.",
+        "phone": "+49 341 9740018",
+        "shop": "charity",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3020632,
+          51.3219127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9028541812",
+      "properties": {
+        "@id": "node/9028541812",
+        "name": "SACHSENWAGEN GmbH",
+        "second_hand": "only",
+        "shop": "car"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3928329,
+          51.3584115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9256451793",
+      "properties": {
+        "@id": "node/9256451793",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "99",
+        "addr:postcode": "04155",
+        "addr:street": "Georg-Schumann-Straße",
+        "check_date:opening_hours": "2025-02-03",
+        "level": "0",
+        "name": "Petters Orthopädie Schuhe",
+        "opening_hours": "Tu,We 09:00-13:00,14:00-18:00",
+        "phone": "+49 341 5905973",
+        "second_hand": "no",
+        "shop": "shoes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3638745,
+          51.3626992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9270129149",
+      "properties": {
+        "@id": "node/9270129149",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "95",
+        "addr:postcode": "04155",
+        "addr:street": "Georg-Schumann-Straße",
+        "brand": "HUK-Coburg",
+        "brand:wikidata": "Q1566111",
+        "level": "0",
+        "name": "HUK-Coburg",
+        "office": "insurance",
+        "second_hand": "only",
+        "start_date": "2025-03-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.36426,
+          51.3625861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9449722210",
+      "properties": {
+        "@id": "node/9449722210",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "68",
+        "addr:postcode": "04178",
+        "addr:street": "Südstraße",
+        "email": "info@evidence-bike.de",
+        "name": "evidence bike",
+        "opening_hours": "Tu 10:00-19:00; We 10:00-17:00; Th 11:00-17:00; Fr 10:00-17:00; Sa 10:00-14:00",
+        "operator": "evidence bike UG",
+        "phone": "+49 178 32 70 953",
+        "second_hand": "only",
+        "service:bicycle:bicycle": "yes",
+        "service:bicycle:parts": "yes",
+        "service:bicycle:retail": "yes",
+        "service:bicycle:sales": "yes",
+        "service:bicycle:second_hand": "yes",
+        "shop": "bicycle",
+        "website": "https://www.evidence-bike.de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2913133,
+          51.3523303
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9457733810",
+      "properties": {
+        "@id": "node/9457733810",
+        "addr:housenumber": "22",
+        "addr:street": "Ranstädter Steinweg",
+        "check_date": "2026-01-06",
+        "check_date:opening_hours": "2026-01-06",
+        "contact:instagram": "https://www.instagram.com/gems.leipzig/",
+        "level": "0",
+        "name": "Gems",
+        "opening_hours": "Mo-Sa 12:00-19:00",
+        "second_hand": "yes",
+        "shop": "clothes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3659433,
+          51.3436307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9520665231",
+      "properties": {
+        "@id": "node/9520665231",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "32",
+        "addr:postcode": "04129",
+        "addr:street": "Schiebestraße",
+        "changing_table": "yes",
+        "check_date:opening_hours": "2026-09-03",
+        "clothes": "women;men;children;babies",
+        "email": "liebenswert@hofgemeinde-leipzig.de",
+        "name": "liebenswert",
+        "opening_hours": "Th 09:30-12:00,15:00-18:00",
+        "operator": "Hofgemeinde Leipzig",
+        "payment:cash": "yes",
+        "phone": "+49 341 5296456",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://liebenswert.hofgemeinde-leipzig.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3879389,
+          51.3630352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9520680965",
+      "properties": {
+        "@id": "node/9520680965",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "180",
+        "addr:postcode": "04179",
+        "addr:street": "Georg-Schwarz-Straße",
+        "check_date": "2026-11-03",
+        "clothes": "women;children;babies;men",
+        "email": "liebenswert@hofgemeinde-leipzig.de",
+        "level": "0",
+        "name": "liebenswert",
+        "opening_hours": "We 15:00-19:00",
+        "operator": "religious",
+        "payment:cash": "yes",
+        "phone": "+49 341 5296456",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://liebenswert.hofgemeinde-leipzig.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3087418,
+          51.350253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9537640572",
+      "properties": {
+        "@id": "node/9537640572",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "22",
+        "addr:postcode": "04229",
+        "addr:street": "Lauchstädter Straße",
+        "check_date": "2024-11-20",
+        "contact:facebook": "Kuess mich wach",
+        "contact:instagram": "hkuessmichwach_leipzig",
+        "email": "info@kuessmichwach.de",
+        "level": "0",
+        "name": "Küss mich wach",
+        "opening_hours": "Mo 10:00-17:00; Tu-Fr 12:00-18:30; Sa 12:00-17:00",
+        "phone": "+4917660145047",
+        "second_hand": "yes",
+        "shop": "second_hand",
+        "website": "https://www.kuessmichwach.de/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3353195,
+          51.3291933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9613543060",
+      "properties": {
+        "@id": "node/9613543060",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "127",
+        "addr:postcode": "04179",
+        "addr:street": "Georg-Schwarz-Straße",
+        "check_date": "2025-11-07",
+        "check_date:opening_hours": "2025-11-07",
+        "email": "gw-west@freenet.de",
+        "level": "0",
+        "name": "Gebraucht Waschmaschinen",
+        "opening_hours": "Mo,Th 14:00-17:00; Sa 11:00-13:00",
+        "operator": "Karsten Wunderlich",
+        "phone": "+49 177 2671406",
+        "shop": "second_hand",
+        "website": "http://www.gebraucht-waschmaschinen.de",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3119556,
+          51.348617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9685486973",
+      "properties": {
+        "@id": "node/9685486973",
+        "check_date:opening_hours": "2026-10-19",
+        "name": "Antik & Trödel - Fa. Jürgen Schramm",
+        "opening_hours:signed": "no",
+        "shop": "antiques",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3339063,
+          51.3358925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9685486988",
+      "properties": {
+        "@id": "node/9685486988",
+        "addr:housenumber": "1",
+        "addr:street": "Odermannstraße",
+        "check_date": "2024-11-22",
+        "email": "lunisecondhand@gmail.com",
+        "level": "0",
+        "name": "LUNI Secondhand",
+        "opening_hours": "Fr 13:00-18:30; Sa 13:00-17:30",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "clothes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3327254,
+          51.3374993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9715924645",
+      "properties": {
+        "@id": "node/9715924645",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "70",
+        "addr:postcode": "04275",
+        "addr:street": "Kochstraße",
+        "check_date:opening_hours": "2025-05-18",
+        "email": "sisteract-vintage@gmx.de",
+        "name": "Sisteract Vintage",
+        "opening_hours:signed": "no",
+        "second_hand": "only",
+        "shop": "clothes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3712026,
+          51.3163419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9732927412",
+      "properties": {
+        "@id": "node/9732927412",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "21",
+        "addr:postcode": "04209",
+        "addr:street": "Stuttgarter Allee",
+        "check_date:opening_hours": "2025-10-29",
+        "level": "0",
+        "name": "An- und Verkauf",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "shop": "second_hand",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2902907,
+          51.3177822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9814251603",
+      "properties": {
+        "@id": "node/9814251603",
+        "brand": "Oxfam",
+        "brand:wikidata": "Q267941",
+        "check_date": "2026-01-21",
+        "check_date:opening_hours": "2026-01-21",
+        "level": "0",
+        "name": "Oxfam",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 11:00-16:00",
+        "shop": "charity",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3735881,
+          51.3418268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9895545689",
+      "properties": {
+        "@id": "node/9895545689",
+        "check_date": "2025-10-17",
+        "check_date:opening_hours": "2025-10-17",
+        "level": "0",
+        "name": "Antiquitäten Wendt",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 11:00-16:00",
+        "operator": "Christina Wendt",
+        "phone": "+49 341 9422549; +49 172 3630944",
+        "shop": "antiques",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3748382,
+          51.3419158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9907745414",
+      "properties": {
+        "@id": "node/9907745414",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "1-5",
+        "addr:postcode": "04109",
+        "addr:street": "Burgstraße",
+        "check_date": "2026-01-12",
+        "check_date:opening_hours": "2026-01-12",
+        "level": "0",
+        "name": "Galerie Sehenswert",
+        "opening_hours": "Mo-Fr 10:00-16:00; Sa 10:00-15:00",
+        "phone": "+49 341 9613326",
+        "shop": "antiques",
+        "source": "survey",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.373146,
+          51.3388951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9965074883",
+      "properties": {
+        "@id": "node/9965074883",
+        "brand": "BMW",
+        "brand:wikidata": "Q26678",
+        "contact:facebook": "https://de-de.facebook.com/automobile.mueller/",
+        "email": "info@automobile-mueller.info",
+        "fax": "+49 341 2587305",
+        "name": "BMW Müller",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:30-13:00",
+        "operator": "Autohaus Müller Leipzig GmbH",
+        "phone": "+49 341 2587300",
+        "second_hand": "yes",
+        "service:vehicle:car_repair": "yes",
+        "service:vehicle:new_car_sales": "yes",
+        "service:vehicle:used_car_sales": "yes",
+        "shop": "car"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4723348,
+          51.3493116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/9990567118",
+      "properties": {
+        "@id": "node/9990567118",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:street": "Markt",
+        "check_date": "2026-01-21",
+        "check_date:opening_hours": "2026-01-21",
+        "level": "0",
+        "name": "Sächsisches Auktionshaus und Antiquariat",
+        "opening_hours": "Mo 10:00-18:00; Tu-Fr 10:00-19:00; Sa 10:00-16:00",
+        "operator": "Johannes Wend KG",
+        "phone": "+49 341 3026703",
+        "shop": "antiques",
+        "website": "https://www.antiquariat-wend.de/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3752463,
+          51.3402293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10108140638",
+      "properties": {
+        "@id": "node/10108140638",
+        "addr:city": "Leipzig",
+        "addr:country": "DE",
+        "addr:housenumber": "6",
+        "addr:postcode": "04229",
+        "addr:street": "Blümnerstraße",
+        "addr:suburb": "Schleußig",
+        "check_date:opening_hours": "2024-08-17",
+        "contact:mobile": "+49 174 4128639",
+        "contact:website": "https://www.abebooks.com/animaleserantiquariat-leipzig/70490963",
+        "name": "AnimaLeser*Antiquariat",
+        "opening_hours:signed": "no",
+        "operator": "Kerstin Marklofsky",
+        "shop": "antiques"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3415796,
+          51.322495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10278804516",
+      "properties": {
+        "@id": "node/10278804516",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "9",
+        "addr:postcode": "04317",
+        "addr:street": "Oststraße",
+        "contact:phone": "+49 341 60432200",
+        "contact:telegram": "https://t.me/TroedelEckLeipzig",
+        "description": "Wir bieten was das Trödelherz höher schlagen lässt. Schaut gerne vorbei und bringt Zeit mit.",
+        "name": "Trödel-Eck",
+        "opening_hours": "Mo,We,Th 11:30-19:30; Tu,Fr 09:30-16:00",
+        "shop": "second_hand",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3974343,
+          51.3323138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10891632992",
+      "properties": {
+        "@id": "node/10891632992",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "61",
+        "addr:postcode": "04155",
+        "addr:street": "Georg-Schumann-Straße",
+        "check_date:opening_hours": "2025-08-02",
+        "mapillary:image": "788096662410666",
+        "name": "Gebrauchtwarenhaus Gohlis",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-14:00",
+        "operator": "Nikos Thieme",
+        "shop": "variety_store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3678306,
+          51.3618003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10958295682",
+      "properties": {
+        "@id": "node/10958295682",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "20",
+        "addr:postcode": "04229",
+        "addr:street": "Rödelstraße",
+        "level": "0",
+        "name": "Lack",
+        "opening_hours": "We 15:00-18:00; Th,Fr 13:00-18:00; Sa 12:00-18:00",
+        "second_hand": "only",
+        "shop": "clothes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.34192,
+          51.3187266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/10981716790",
+      "properties": {
+        "@id": "node/10981716790",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "32",
+        "addr:postcode": "04177",
+        "addr:street": "Demmeringstraße",
+        "name": "Bambule",
+        "opening_hours": "Tu-Fr 14:00-19:00",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.bambule.shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3321046,
+          51.3378604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11027659936",
+      "properties": {
+        "@id": "node/11027659936",
+        "brand": "C&A",
+        "brand:wikidata": "Q701338",
+        "check_date": "2026-01-07",
+        "check_date:opening_hours": "2026-01-07",
+        "level": "0",
+        "name": "C&A",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "second_hand": "no",
+        "shop": "clothes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3747701,
+          51.3391763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11465897089",
+      "properties": {
+        "@id": "node/11465897089",
+        "check_date:opening_hours": "2026-07-26",
+        "name": "Graveur am Schillerhaus",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa,Su,PH off",
+        "shop": "antiques"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3626219,
+          51.3589736
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11657133090",
+      "properties": {
+        "@id": "node/11657133090",
+        "brand": "Humana",
+        "brand:wikidata": "Q1636581",
+        "check_date": "2026-04-17",
+        "check_date:opening_hours": "2026-04-17",
+        "level": "0",
+        "name": "Humana",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "second_hand": "only",
+        "shop": "clothes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3782218,
+          51.3408493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/11934028077",
+      "properties": {
+        "@id": "node/11934028077",
+        "addr:housenumber": "47a",
+        "addr:street": "Ehrensteinstraße",
+        "check_date": "2024-05-25",
+        "contact:instagram": "lisbeths.erben",
+        "level": "0",
+        "name": "Lisbeth's Erben",
+        "payment:cash": "yes",
+        "payment:ec_cards": "yes",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://www.lisbethserben.de",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3751141,
+          51.3584899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12229593758",
+      "properties": {
+        "@id": "node/12229593758",
+        "contact:facebook": "https://www.facebook.com/orinoco.books.leipzig/",
+        "contact:instagram": "https://www.instagram.com/orinoco_books",
+        "contact:youtube": "https://www.youtube.com/@orinocobooks",
+        "currency:EUR": "yes",
+        "description": "secondhand english books",
+        "email": "info@orinocobooks.com",
+        "level": "0",
+        "name": "ORINOCO BOOKS",
+        "opening_hours": "Mo-Sa 13:00-20:00; Su,PH off",
+        "operator": "LitArt e.V.",
+        "second_hand": "yes",
+        "shop": "books",
+        "start_date": "2020-10",
+        "website": "https://orinocobooks.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4004195,
+          51.347099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12571113582",
+      "properties": {
+        "@id": "node/12571113582",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "1",
+        "addr:postcode": "04109",
+        "addr:street": "Brühl",
+        "check_date:opening_hours": "2025-07-03",
+        "level": "1",
+        "name": "Wiederschön",
+        "opening_hours:signed": "no",
+        "operator": "Stadtreinigung Leipzig",
+        "second_hand": "only",
+        "shop": "second_hand",
+        "start_date": "2024-05-18",
+        "website": "https://mein-leipzig-schon-ich-mir.de/projekte/unser-kaufhaus-wiederschoen/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3761912,
+          51.3432706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12688418997",
+      "properties": {
+        "@id": "node/12688418997",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "2",
+        "addr:postcode": "04159",
+        "addr:street": "Am Börnchen",
+        "check_date": "2025-03-21",
+        "level": "0",
+        "name": "LE.Rad",
+        "opening_hours": "Mo 13:00-19:00; Tu-Fr 10:00-19:00; Sa 10:00-14:00",
+        "second_hand": "no",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:sales": "yes",
+        "shop": "bicycle",
+        "website": "https://le-rad.de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3173262,
+          51.3789462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/12919123300",
+      "properties": {
+        "@id": "node/12919123300",
+        "name": "Trödelhalle Plagwitz",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00; Su off",
+        "shop": "antiques"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3236831,
+          51.3226223
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13028314999",
+      "properties": {
+        "@id": "node/13028314999",
+        "name": "Gisiversum",
+        "opening_hours": "Mo-Sa 10:00-19:00",
+        "shop": "second_hand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3731126,
+          51.3168033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13030310322",
+      "properties": {
+        "@id": "node/13030310322",
+        "addr:floor": "0",
+        "addr:housenumber": "16",
+        "addr:street": "Schulze-Delitzsch-Straße",
+        "check_date": "2025-07-23",
+        "contact:instagram": "osteck_leipzig",
+        "email": "info@osteck.de",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Osteck",
+        "opening_hours": "Mo-Tu,Su off; We-Fr 14:00-18:00; Sa 12:00-16:00",
+        "second_hand": "only",
+        "shop": "clothes",
+        "website": "https://osteck.de",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4023725,
+          51.3482419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13238463901",
+      "properties": {
+        "@id": "node/13238463901",
+        "addr:housenumber": "210",
+        "addr:postcode": "04279",
+        "addr:street": "Bornaische Straße",
+        "email": "post@abuha.de",
+        "name": "Agra Antikmarkt",
+        "opening_hours": "Tu-Fr 09:00-16:00",
+        "phone": "+49 172 9687629",
+        "shop": "antiques",
+        "website": "https://agra-antikmarkt.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3937257,
+          51.2851493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13649991263",
+      "properties": {
+        "@id": "node/13649991263",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "23e",
+        "addr:postcode": "04179",
+        "addr:street": "Ludwig-Hupfeld-Straße",
+        "name": "Rocktrade",
+        "second_hand": "only",
+        "shop": "car",
+        "website": "https://rocktrade.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3018967,
+          51.345803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/13878219646",
+      "properties": {
+        "@id": "node/13878219646",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "19",
+        "addr:postcode": "04347",
+        "addr:street": "Ossietzkystraße",
+        "description": "Einbauküchen neu & alt",
+        "level": "0",
+        "name": "Küchenhaus Kellner",
+        "opening_hours": "Mo-Fr 10:00-18:00; \"by appointment\"",
+        "second_hand": "yes",
+        "shop": "kitchen",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4141059,
+          51.3593686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14150034025",
+      "properties": {
+        "@id": "node/14150034025",
+        "name": "Antiquariat an der Nikolaikirche",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00; Su,PH off",
+        "shop": "antiques"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3792681,
+          51.3400909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/14216064971",
+      "properties": {
+        "@id": "node/14216064971",
+        "addr:city": "Leipzig",
+        "addr:housenumber": "26C",
+        "addr:postcode": "04229",
+        "addr:street": "Naumburger Straße",
+        "name": "Nabyteque",
+        "opening_hours": "Mo-Fr 11:00-17:00; Sa 13:00-17:00",
+        "phone": "+49 176 31424446",
+        "second_hand": "only",
+        "shop": "furniture",
+        "website": "https://www.nabyteque.de"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3301013,
+          51.3271126
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+input/
+build/
+logs/
+out/
+__pycache__/
+media/
+node_modules/
+docs/data/*.pmtiles
+docs/data/*.json
+docs/data/*.geojson
+docs/data/*.gpkg
+docs/data/*.log

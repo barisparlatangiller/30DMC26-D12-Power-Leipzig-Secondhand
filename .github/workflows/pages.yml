@@ -1,0 +1,86 @@
+name: build-and-deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11", cache: pip }
+      - run: |
+          pip install -r requirements.txt
+          sudo apt-get update -q && sudo apt-get install -y -q tippecanoe osmium-tool > /dev/null
+      - uses: actions/cache@v4
+        id: out
+        with:
+          path: out
+          key: out-${{ hashFiles('pipeline/*.py', 'data/*', 'requirements.txt') }}
+      - uses: actions/cache@v4
+        if: steps.out.outputs.cache-hit != 'true'
+        with:
+          path: input
+          key: input-${{ github.run_id }}
+          restore-keys: input-
+      - name: restore built data
+        if: steps.out.outputs.cache-hit == 'true'
+        run: mkdir -p docs/data && cp -r out/* docs/data/
+      - name: pipeline
+        if: steps.out.outputs.cache-hit != 'true'
+        shell: bash -eo pipefail {0}
+        run: |
+          mkdir -p logs input build
+          python pipeline/fetch_inputs.py leipzig 2>&1 | tee logs/fetch_leipzig.log
+          if [ ! -f input/leipzig_lod2.parquet ]; then
+            python pipeline/fetch_inputs.py lod2 2>&1 | tee logs/fetch_lod2.log
+            python pipeline/lod2_to_footprints.py --lod2 input/lod2 --out input/leipzig_lod2.parquet 2>&1 | tail -5 | tee logs/lod2.log
+            rm -rf input/lod2
+          fi
+          python pipeline/a_places.py 2>&1 | tee logs/a_places.log
+          python pipeline/b_hinterland.py 2>&1 | tee logs/b_hinterland.log
+          python pipeline/c_web.py 2>&1 | tee logs/c_web.log
+          cp logs/*.log docs/data/ && du -sh docs/data/*
+          mkdir -p out && cp -r docs/data/* out/
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: docs }
+      - uses: actions/upload-artifact@v4
+        with: { name: site, path: docs, retention-days: 3 }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.d.outputs.page_url }}" }
+    steps:
+      - id: d
+        uses: actions/deploy-pages@v4
+  posters:
+    needs: build
+    if: contains(github.event.head_commit.message, '[posters]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { name: site, path: docs }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Render
+        shell: bash -eo pipefail {0}
+        run: |
+          npm i --no-save playwright@1.48.2 > /dev/null && npx playwright install --with-deps chromium > /dev/null
+          node pipeline/posters.mjs 2>&1 | tee posters.log
+      - name: Push to media branch
+        run: |
+          mkdir -p /tmp/m && cp media/*.png media/*.jpg /tmp/m/ 2>/dev/null || true
+          cd /tmp/m && git init -q -b media && git config user.name Claude && git config user.email noreply@anthropic.com
+          git add . && git commit -qm "Rendered media ($(date -u +%F))"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" media
